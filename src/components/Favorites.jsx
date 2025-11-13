@@ -3,7 +3,7 @@ import { useCart } from '../context/CartContext'
 import CardItem from './cart/CartItem'
 
 const Favorites = () => {
-  const { favorites, removeFromFavorites } = useCart()
+  const { favorites } = useCart()
 
   return (
     <div className="container py-4">
